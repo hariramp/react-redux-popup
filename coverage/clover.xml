@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1520363209562" clover="3.2.0">
+  <project timestamp="1520363209562" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="11" coveredconditionals="11" methods="12" coveredmethods="12" elements="51" coveredelements="51" complexity="0" loc="28" ncloc="28" packages="4" files="6" classes="6">
+      <package name="actions">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <file name="index.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\actions\index.js">
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="1" count="2" type="stmt"/>
+          <line num="2" count="2" type="stmt"/>
+          <line num="8" count="2" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="18" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="components">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <file name="Footer.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\components\Footer.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+        <file name="Link.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\components\Link.js">
+          <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+          <line num="4" count="2" type="stmt"/>
+          <line num="5" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="9" count="5" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="14" count="2" type="stmt"/>
+          <line num="22" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="containers">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <file name="FilterLink.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\containers\FilterLink.js">
+          <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="5" count="4" type="stmt"/>
+          <line num="9" count="4" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="15" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="reducers">
+        <metrics statements="10" coveredstatements="10" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3"/>
+        <file name="todos.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\reducers\todos.js">
+          <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
+          <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="2" count="5" type="cond" truecount="3" falsecount="0"/>
+          <line num="4" count="3" type="stmt"/>
+          <line num="13" count="1" type="stmt"/>
+          <line num="14" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="19" count="1" type="stmt"/>
+        </file>
+        <file name="visibilityFilter.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\reducers\visibilityFilter.js">
+          <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>
