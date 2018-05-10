@@ -1,5 +1,3 @@
-var counter = 0;
-var popcounter = 10;
 export function addTodo(idRef, text) {
   return {
     __proto__: null,

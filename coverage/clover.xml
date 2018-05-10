@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1520363209562" clover="3.2.0">
-  <project timestamp="1520363209562" name="All files">
-    <metrics statements="28" coveredstatements="28" conditionals="11" coveredconditionals="11" methods="12" coveredmethods="12" elements="51" coveredelements="51" complexity="0" loc="28" ncloc="28" packages="4" files="6" classes="6">
+<coverage generated="1525981566793" clover="3.2.0">
+  <project timestamp="1525981566793" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="14" coveredconditionals="14" methods="14" coveredmethods="14" elements="60" coveredelements="60" complexity="0" loc="32" ncloc="32" packages="4" files="7" classes="7">
       <package name="actions">
-        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <file name="index.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\actions\index.js">
-          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-          <line num="1" count="2" type="stmt"/>
-          <line num="2" count="2" type="stmt"/>
-          <line num="8" count="2" type="stmt"/>
-          <line num="13" count="2" type="stmt"/>
-          <line num="18" count="2" type="stmt"/>
+          <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+          <line num="2" count="1" type="stmt"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="23" count="2" type="stmt"/>
+          <line num="29" count="2" type="stmt"/>
         </file>
       </package>
       <package name="components">
@@ -42,7 +42,14 @@
         </file>
       </package>
       <package name="reducers">
-        <metrics statements="10" coveredstatements="10" conditionals="9" coveredconditionals="9" methods="3" coveredmethods="3"/>
+        <metrics statements="14" coveredstatements="14" conditionals="12" coveredconditionals="12" methods="4" coveredmethods="4"/>
+        <file name="indexReference.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\reducers\indexReference.js">
+          <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="1" coveredmethods="1"/>
+          <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="2" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="4" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+        </file>
         <file name="todos.js" path="C:\Cafe\React_Projects\Redux\redux-ex\examples\todos\src\reducers\todos.js">
           <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="2" coveredmethods="2"/>
           <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>

@@ -1,10 +1,16 @@
 import * as actions from './index'
 describe('todo actions', () => {
     test('addTodo should create ADD_TODO action', () => {
-        expect(actions.addTodo('Use Redux')).toEqual({
+        expect(actions.addTodo(0,'Use AddTodo')).toEqual({
             type: 'ADD_TODO',
             id: 0,
-            text: 'Use Redux'
+            text: 'Use AddTodo'
+        })
+    })
+
+    test('increment should create INCREMENT action', () => {
+        expect(actions.increment(0,'Use Icrement')).toEqual({
+            type: 'INCREMENT'
         })
     })
 
