@@ -1,8 +1,8 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { addTodo } from '../actions'
+import { addTodo, increment } from '../actions'
 
-let AddTodo = ({ dispatch }) => {
+let AddTodo = ({ dispatch, indexReference }) => {
   let input
 
   return (
@@ -12,7 +12,8 @@ let AddTodo = ({ dispatch }) => {
         if (!input.value.trim()) {
           return
         }
-        dispatch(addTodo(input.value))
+        dispatch(addTodo(indexReference, input.value));
+        dispatch(increment());
         input.value = ''
       }}>
         <input ref={node => {
@@ -25,6 +26,12 @@ let AddTodo = ({ dispatch }) => {
     </div>
   )
 }
-AddTodo = connect()(AddTodo)
+
+const mapStateToProps = (state) => ({
+  indexReference: state.indexReference
+})
+
+AddTodo = connect(mapStateToProps)(AddTodo)
+
 
 export default AddTodo

@@ -1,24 +1,19 @@
 var counter = 0;
 var popcounter = 10;
-export function addTodo(text) {
-  if (window.opener == null) {
-    return {
-      __proto__: null,
-      type: 'ADD_TODO',
-      id: popcounter++,
-      text
-    }
+export function addTodo(idRef, text) {
+  return {
+    __proto__: null,
+    type: 'ADD_TODO',
+    id: idRef,
+    text
   }
-  else
-  {
-    return {
-      __proto__: null,
-      type: 'ADD_TODO',
-      id: counter++,
-      text
-    }
-  }
+}
 
+export function increment() {
+  return {
+    __proto__: null,
+    type: 'INCREMENT'
+  }
 }
 
 export const setVisibilityFilter = (filter) => ({
