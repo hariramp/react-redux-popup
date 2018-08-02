@@ -3,13 +3,13 @@ import Link from './Footer.js';
 import FilterLink from '../containers/FilterLink'
 import { VisibilityFilters, setVisibilityFilter } from '../actions'
 import { Provider } from 'react-redux'
-import Enzyme  from 'enzyme';
-import {shallow}  from 'enzyme';
+//import Enzyme  from 'enzyme';
+//import {shallow}  from 'enzyme';
 
 
 //React Render Jest
 import renderer from 'react-test-renderer';
-import Adapter from 'enzyme-adapter-react-16';
+//import Adapter from 'enzyme-adapter-react-16';
 //Redux test store
 import configureStore from 'redux-mock-store'
 import Footer from './Footer.js';
@@ -20,7 +20,7 @@ const mockStore = configureStore()
 let store, container
 
 store = mockStore(initialState)
-Enzyme.configure({ adapter: new Adapter() })
+//Enzyme.configure({ adapter: new Adapter() })
 
 test('renders correctly', () => {
 
