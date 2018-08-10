@@ -18,8 +18,11 @@ exports[`Link Component Active Page - No Link 2`] = `
 </a>
 `;
 
-exports[`Link Component InActive Page - Show Link 1`] = `
+exports[`Link Component Test Page - Show Link 1`] = `
 <span>
-  Test
+  Test 
+  <span>
+    What
+  </span>
 </span>
 `;

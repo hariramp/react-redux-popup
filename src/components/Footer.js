@@ -6,15 +6,15 @@ const Footer = () => (
   <p>
     Show:
     {" "}
-    <FilterLink filter={ VisibilityFilters.SHOW_ALL }>
+    <FilterLink id="1" filter={ VisibilityFilters.SHOW_ALL }>
       All
     </FilterLink>
     {", "}
-    <FilterLink filter={ VisibilityFilters.SHOW_ACTIVE }>
+    <FilterLink id="2" filter={ VisibilityFilters.SHOW_ACTIVE }>
       Active
     </FilterLink>
     {", "}
-    <FilterLink filter={ VisibilityFilters.SHOW_COMPLETED }>
+    <FilterLink id="3" filter={ VisibilityFilters.SHOW_COMPLETED }>
       Completed
     </FilterLink>
   </p>

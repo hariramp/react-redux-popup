@@ -41,7 +41,7 @@ test('renders correctly', () => {
 
 test('filter link', () => {
 
-    const filterLink = renderer.create(<Provider store={store}><FilterLink filter={VisibilityFilters.SHOW_ALL} onClick={Function}>Active</FilterLink></Provider>);
+    const filterLink = renderer.create(<Provider store={store}><FilterLink id="1" filter={VisibilityFilters.SHOW_ALL} onClick={Function}>Active</FilterLink></Provider>);
     let filterLinkView = filterLink.toJSON();
     filterLinkView.props.onClick({
         preventDefault: () => {
